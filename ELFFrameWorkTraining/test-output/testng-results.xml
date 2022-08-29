@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-27T10:39:46 IST" name="Default suite" finished-at="2022-08-27T10:39:59 IST" duration-ms="13499">
+    <groups>
+    </groups>
+    <test started-at="2022-08-27T10:39:46 IST" name="Default test" finished-at="2022-08-27T10:39:59 IST" duration-ms="13499">
+      <class name="testScripts.RegisterTest">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.RegisterTest@5c30a9b0]" started-at="2022-08-27T10:39:46 IST" name="setUpBrowser" finished-at="2022-08-27T10:39:50 IST" duration-ms="4452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@5c30a9b0]" started-at="2022-08-27T10:39:51 IST" name="registerTestCase" data-provider="Register" finished-at="2022-08-27T10:39:53 IST" duration-ms="2151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sparrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jacksparrow@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password@345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@5c30a9b0]" started-at="2022-08-27T10:39:53 IST" name="registerTestCase" data-provider="Register" finished-at="2022-08-27T10:39:55 IST" duration-ms="1945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[man]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ironman@testyantra.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tonySt@rk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@5c30a9b0]" started-at="2022-08-27T10:39:55 IST" name="registerTestCase" data-provider="Register" finished-at="2022-08-27T10:39:57 IST" duration-ms="1984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wonder]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[woman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wonder.woman@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WonDer@8050]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@5c30a9b0]" started-at="2022-08-27T10:39:57 IST" name="registerTestCase" data-provider="Register" finished-at="2022-08-27T10:39:59 IST" duration-ms="1906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[captain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[marvel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[captain.marvel@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Capt@!n6360]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testScripts.RegisterTest@5c30a9b0]" started-at="2022-08-27T10:39:59 IST" name="browserTearDown" finished-at="2022-08-27T10:39:59 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testScripts.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
